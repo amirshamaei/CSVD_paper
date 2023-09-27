@@ -1,0 +1,27 @@
+{
+  "config": {
+    "subject_name": "HomoDeus2",
+    "basis_dir" : "ismrm challenge/basisset.mat",
+    "saving_dir" : "ismrm challenge/",
+    "mm_dir" : "ismrm challenge/mm.mat",
+    "image_dir" : "IBSR_02_segTRI_fill_ana.nii.gz",
+    "t_step" : 0.25e-3,
+    "siglen" : 2048,
+    "met_name" : ["Ala", "Asc", "Asp", "Cr", "GABA", "GPC", "GSH", "Glc", "Gln", "Glu",
+            "Gly", "Ins", "Lac", "NAA", "NAAG", "PCho", "PCr", "PE", "Tau", "sIns", "Mac"],
+    "noise_level": 10,
+    "sim_param": [3,0.1,60,50,5],
+    "trnfreq": 123.32,
+    "min_c":[
+        0.1,  0,1, 4.5, 1, 0.5, 1.5, 1, 3, 6,0.4,
+                  3.8, 0.2, 7.5,0.5,0.5,3,1,2, 0.3, 14],
+    "max_c":[
+        1.5,  0,2, 10.5, 2, 2, 3, 2,6, 12.5,1,
+                  8.1, 1, 17,2.5,2,5.5,2,6, 0.6, 17
+      ],
+    "ratio":[
+        1,  0,1, 1.24, 1, 1, 1, 1.22, 1, 1.4,1,
+                1.2, 1, 1.25,1,0.68,1.24,1,1, 1.09, 1
+    ]
+  }
+}
